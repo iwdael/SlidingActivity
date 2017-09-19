@@ -1,0 +1,3 @@
+<resources>
+ <style name="ThemeSlidingActivity" parent="@android:style/Theme.Translucent.NoTitleBar" />
+</resources>
