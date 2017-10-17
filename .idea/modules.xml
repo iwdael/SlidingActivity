@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SlidingActivity.iml" filepath="$PROJECT_DIR$/SlidingActivity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SlidingActivity.iml" filepath="$PROJECT_DIR$/SlidingActivity.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libsslidingactivity/libsslidingactivity.iml" filepath="$PROJECT_DIR$/libsslidingactivity/libsslidingactivity.iml" />
       <module fileurl="file://$PROJECT_DIR$/libsslidingactivity/libsslidingactivity.iml" filepath="$PROJECT_DIR$/libsslidingactivity/libsslidingactivity.iml" />
     </modules>
   </component>

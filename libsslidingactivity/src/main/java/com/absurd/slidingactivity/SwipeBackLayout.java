@@ -9,7 +9,6 @@ import android.graphics.drawable.Drawable;
 import android.support.annotation.NonNull;
 import android.support.v4.view.ViewPager;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewConfiguration;
@@ -22,7 +21,7 @@ import java.util.List;
 
 
 public class SwipeBackLayout extends FrameLayout {
-    private static final String TAG = SwipeBackLayout.class.getSimpleName();
+
     private View mContentView;
     private int mTouchSlop;
     private int downX;
@@ -80,7 +79,6 @@ public class SwipeBackLayout extends FrameLayout {
     public boolean onInterceptTouchEvent(MotionEvent ev) {
 
         ViewPager mViewPager = getTouchViewPager(mViewPagers, ev);
-        Log.i(TAG, "mViewPager = " + mViewPager);
 
         if (mViewPager != null && mViewPager.getCurrentItem() != 0) {
             return super.onInterceptTouchEvent(ev);
@@ -168,9 +166,7 @@ public class SwipeBackLayout extends FrameLayout {
         super.onLayout(changed, l, t, r, b);
         if (changed) {
             viewWidth = this.getWidth();
-
             getAlLViewPager(mViewPagers, this);
-            Log.i(TAG, "ViewPager size = " + mViewPagers.size());
         }
     }
 
