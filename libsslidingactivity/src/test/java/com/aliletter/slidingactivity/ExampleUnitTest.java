@@ -1,4 +1,4 @@
-package com.absurd.demo_slidingactivity;
+package com.aliletter.slidingactivity;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.absurd.slidingactivity;
+package com.aliletter.slidingactivity;
 
 import android.app.Activity;
 import android.content.Context;

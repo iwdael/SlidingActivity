@@ -1,11 +1,10 @@
-package com.absurd.demo_slidingactivity;
+package com.aliletter.demo_slidingactivity;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.view.LayoutInflater;
 
-import com.absurd.slidingactivity.SwipeBackLayout;
+import com.aliletter.slidingactivity.SwipeBackLayout;
 
 /**
  * Author: mr-absurd

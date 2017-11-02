@@ -1,4 +1,4 @@
-package com.absurd.demo_slidingactivity;
+package com.aliletter.slidingactivity;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.absurd.demo_slidingactivity", appContext.getPackageName());
+        assertEquals("com.absurd.slidingactivity.test", appContext.getPackageName());
     }
 }
