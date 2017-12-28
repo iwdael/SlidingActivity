@@ -2,7 +2,7 @@ package com.aliletter.demo_slidingactivity;
 
 import android.os.Bundle;
 
-public class Main2Activity extends SlidingActivity {
+public class Main2Activity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

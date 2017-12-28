@@ -4,7 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class MainActivity extends SlidingActivity implements View.OnClickListener{
+public class MainActivity extends BaseActivity implements View.OnClickListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

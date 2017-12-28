@@ -12,7 +12,7 @@ import com.aliletter.slidingactivity.SwipeBackLayout;
  * Data: 2017/9/19.
  */
 
-public class SlidingActivity extends Activity {
+public class BaseActivity extends Activity {
     protected SwipeBackLayout layout;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
