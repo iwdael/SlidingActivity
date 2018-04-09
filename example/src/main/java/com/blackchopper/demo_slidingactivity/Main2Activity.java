@@ -1,6 +1,8 @@
-package com.aliletter.demo_slidingactivity;
+package com.blackchopper.demo_slidingactivity;
 
 import android.os.Bundle;
+
+import com.blackchopper.demo_slidingactivity.R;
 
 public class Main2Activity extends BaseActivity {
 

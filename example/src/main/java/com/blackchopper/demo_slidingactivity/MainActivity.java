@@ -1,8 +1,10 @@
-package com.aliletter.demo_slidingactivity;
+package com.blackchopper.demo_slidingactivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import com.blackchopper.demo_slidingactivity.R;
 
 public class MainActivity extends BaseActivity {
 

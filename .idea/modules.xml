@@ -3,10 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SlidingActivity.iml" filepath="$PROJECT_DIR$/SlidingActivity.iml" />
-      <module fileurl="file://C:\Users\alile\Desktop\SlidingActivity\example\app.iml" filepath="C:\Users\alile\Desktop\SlidingActivity\example\app.iml" />
+      <module fileurl="file://D:\Android Project\SlidingActivity\SlidingActivity.iml" filepath="D:\Android Project\SlidingActivity\SlidingActivity.iml" />
       <module fileurl="file://C:\Users\alile\Desktop\SlidingActivity\app\app.iml" filepath="C:\Users\alile\Desktop\SlidingActivity\app\app.iml" />
+      <module fileurl="file://C:\Users\alile\Desktop\SlidingActivity\example\app.iml" filepath="C:\Users\alile\Desktop\SlidingActivity\example\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/example/example.iml" filepath="$PROJECT_DIR$/example/example.iml" />
+      <module fileurl="file://D:\Android Project\SlidingActivity\example\example.iml" filepath="D:\Android Project\SlidingActivity\example\example.iml" />
       <module fileurl="file://$PROJECT_DIR$/libsslidingactivity/libsslidingactivity.iml" filepath="$PROJECT_DIR$/libsslidingactivity/libsslidingactivity.iml" />
+      <module fileurl="file://D:\Android Project\SlidingActivity\libsslidingactivity\libsslidingactivity.iml" filepath="D:\Android Project\SlidingActivity\libsslidingactivity\libsslidingactivity.iml" />
     </modules>
   </component>
 </project>

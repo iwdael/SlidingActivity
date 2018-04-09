@@ -1,4 +1,4 @@
-package com.aliletter.slidingactivity;
+package com.blackchopper.slidingactivity;
 
 import android.app.Activity;
 import android.content.Context;
