@@ -1,12 +1,11 @@
-package com.blackchopper.demo_slidingactivity;
+package com.hacknife.demo_slidingactivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.blackchopper.demo_slidingactivity.R;
 
-public class MainActivity extends BaseActivity {
+public class MainActivity extends  BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,7 +14,7 @@ public class MainActivity extends BaseActivity {
         findViewById(R.id.text).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, Main2Activity.class));
+                startActivity(new Intent(MainActivity.this,Main2Activity.class));
             }
         });
     }

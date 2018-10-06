@@ -1,4 +1,4 @@
-package com.blackchopper.slidingactivity;
+package com.hacknife.slidingactivity;
 
 import android.app.Activity;
 import android.content.Context;
@@ -6,7 +6,6 @@ import android.content.res.TypedArray;
 import android.graphics.Canvas;
 import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
-import android.support.annotation.NonNull;
 import android.support.v4.view.ViewPager;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
@@ -35,7 +34,7 @@ public class SwipeBackLayout extends FrameLayout {
     private Activity mActivity;
     private List<ViewPager> mViewPagers = new LinkedList<ViewPager>();
 
-    public SwipeBackLayout( Context context) {
+    public SwipeBackLayout(Context context) {
         this(context, null);
     }
 

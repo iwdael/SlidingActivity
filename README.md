@@ -1,9 +1,9 @@
 # SlidingActivity  [![](https://jitpack.io/v/blackchopper/slidingactivity.svg)](https://jitpack.io/#blackchopper/slidingactivity)
-In the android application, a right-click to return to the previous page and destroy the current page is a more common feature. SlidingActivity just to help us to achieve this function, you only need a simple configuration function can achieve it.[中文文档](https://github.com/blackchopper/SlidingActivity/blob/master/README_CHINESE.md)
-## Instruction
-Need to slide right out of the Activity must use a transparent theme.
-### Code Sample
-If many classes need to implement the right slide exit function, it is recommended to achieve in the base class.
+在安卓应用程序中，右滑返回上一页并销毁当前页面是一个比较常见的功能。 SlidingActivity只是为了帮助我们实现这个功能，你只需要一个简单的配置功能就可以实现它。[English](https://github.com/blackchopper/SlidingActivity/blob/master/README_ENGLISH.md)
+## 使用说明
+需要右滑退出的Activity必须使用透明主题。
+### 代码示例
+如果许多类都需要实现右滑退出功能，建议在基类中实现。
 ```Java
 public class BaseActivity extends Activity {
     protected SwipeBackLayout layout;
@@ -16,14 +16,14 @@ public class BaseActivity extends Activity {
     }
 }
 ```
-SlidingActivity comes with a transparent theme.
+SlidingActivity中自带的一个透明主题。
 ```Java
     <style name="ThemeSlidingActivity" parent="@android:style/Theme.Translucent.NoTitleBar" />
 ```
-## How to
-To get a Git project into your build:
-### Step 1. Add the JitPack repository to your build file
-Add it in your root build.gradle at the end of repositories.   [click here for details](https://github.com/blackchopper/CarouselBanner/blob/master/root_build.gradle.png)
+## 如何配置
+将本仓库引入你的项目:
+### Step 1. 添加JitPack仓库到Build文件
+合并以下代码到项目根目录下的build.gradle文件的repositories尾。[点击查看详情](https://github.com/blackchopper/CarouselBanner/blob/master/root_build.gradle.png)
 ```Java
 	allprojects {
 		repositories {
@@ -32,8 +32,8 @@ Add it in your root build.gradle at the end of repositories.   [click here for d
 		}
 	}
 ```
-### Step 2. Add the dependency
-Add it in your application module build.gradle at the end of dependencies where you want to use.   [click here for details](https://github.com/blackchopper/CarouselBanner/blob/master/application_build.gradle.png)
+### Step 2. 添加依赖   
+合并以下代码到需要使用的application Module的dependencies尾。[点击查看详情](https://github.com/blackchopper/CarouselBanner/blob/master/application_build.gradle.png)
 ```Java
 	dependencies {
                 ...
@@ -43,7 +43,7 @@ Add it in your application module build.gradle at the end of dependencies where 
 <br><br>
 ![Image Text](https://github.com/blackchopper/SlidingActivity/blob/master/slidingactivity.gif)
 <br><br><br>
-## Thank you for your browsing
-If you have any questions, please join the QQ group. I will do my best to answer it for you. Welcome to star and fork this repository, alse follow me.
+## 感谢浏览
+如果你有任何疑问，请加入QQ群，我将竭诚为你解答。欢迎Star和Fork本仓库，当然也欢迎你关注我。
 <br>
 ![Image Text](https://github.com/blackchopper/CarouselBanner/blob/master/qq_group.png)

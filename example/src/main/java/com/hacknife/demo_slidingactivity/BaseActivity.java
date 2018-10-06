@@ -1,11 +1,12 @@
-package com.blackchopper.demo_slidingactivity;
+package com.hacknife.demo_slidingactivity;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 
-import com.blackchopper.demo_slidingactivity.R;
-import com.blackchopper.slidingactivity.SwipeBackLayout;
+import com.hacknife.slidingactivity.SwipeBackLayout;
+
+
 public class BaseActivity extends Activity {
     protected SwipeBackLayout layout;
     @Override

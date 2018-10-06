@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.blackchopper.demo_slidingactivity">
+    package="com.hacknife.demo_slidingactivity">
 
     <application
         android:allowBackup="true"
@@ -9,14 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.blackchopper.demo_slidingactivity.MainActivity">
+        <activity android:name="com.hacknife.demo_slidingactivity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.aliletter.demo_slidingactivity.com.blackchopper.demo_slidingactivity.Main2Activity" android:theme="@style/ThemeSlidingActivity"></activity>
+        <activity android:name="com.hacknife.demo_slidingactivity.Main2Activity" android:theme="@style/ThemeSlidingActivity"></activity>
     </application>
 
 </manifest>
