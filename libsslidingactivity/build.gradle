@@ -1,8 +1,7 @@
 apply plugin: 'com.android.library'
-
+apply plugin: 'com.novoda.bintray-release'
 android {
     compileSdkVersion 26
-    buildToolsVersion "26.0.1"
 
     defaultConfig {
         minSdkVersion 14
@@ -22,5 +21,13 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:design:26.0.0-alpha1'
+    compileOnly 'com.android.support:design:26.0.0-alpha1'
+}
+publish{
+    userOrg = 'hacknife'
+    groupId = 'com.hacknife'
+    artifactId = 'slidingactivity'
+    publishVersion = '1.0.5'
+    desc = ''
+    website = 'https://github.com/hacknife/slidingactivity'
 }
